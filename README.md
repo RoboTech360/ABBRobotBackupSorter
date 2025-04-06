@@ -26,17 +26,23 @@ Author: Robotech360
 ## option 1: Run the Executable with the Batch File
   Download the ABBRobotBackupSorter_v1.6.exe from the Releases folder. In the Releases folder, you'll find the example batch file run_ABBRobotBackupSorter_v1.6.bat.
   The batch file is pre-configured to run the executable with a specified base path. By default, it uses:
+  
   SET BACKUP_PATH=C:\Users\%USERNAME%\Desktop\Code_Playground\test
+  
   ouble-click the run_ABBRobotBackupSorter_v1.6.bat file to execute the program. The batch file will launch the executable and pass the base path as an argument.
   
 ## option 2: Run the Python Script Manually (If Python is Installed)
   If you have Python installed on your system, you can choose to run the Python script manually.
   Download the Python script from the /src folder.
   Open the batch file and modify it to run the Python script instead of the executable:
-  Uncomment the line to run the Python script: 
+  Uncomment the line to run the Python script:
+  
   REM python ABBRobotBackupSorter_v1.6.py "%BACKUP_PATH%"
+  
   Comment the line that runs the executable: 
+  
   REM start "" "C:\path\to\your\dist\ABBRobotBackupSorter_v1.6.exe" "%BACKUP_PATH%"
+  
   After modifying the batch file, double-click it to run the Python script with the defined base path.
 
 ## Option 3: Run the Script in Debug Mode
