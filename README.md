@@ -1,6 +1,6 @@
 ## ABBRobotBackupSorter
 python based program to find and zip all ABB robot backups in a file tree.
-ABB robot backup sorting script.
+- ABB robot backup sorting script.
 
 This script is primarily designed to sort out backups of ABB robots
 deep inside a file tree and by identifying and zipping the backup folders. 
