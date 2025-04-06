@@ -1,7 +1,5 @@
 ## ABBRobotBackupSorter
 python based program to find and zip all ABB robot backups in a file tree.
-
-============================================================
 ABB robot backup sorting script.
 
 This script is primarily designed to sort out backups of ABB robots
@@ -15,13 +13,14 @@ and optionally deleted. It serves as a reference for organizing
 backup data efficiently by adjusting the search criteria.
 
 Author: Robotech360
-============================================================
+
 ### revision history / release notes:
-// ver 5. - added logging info setup, a log file will be crearted.
-// ver 4. - added user confirmation for deleting the original backup folders.
-// ver 3. - stopped recurse into subdirectories once valid backup is found.
-// ver 2. - checks for system.xml file along with BACKINFO.
-// ver 1. - checks for BACKINFO and zips and deletes the parent backup folder.
+- ver 1.6 - added fuction to take a bsaepath argument from command line.
+- ver 1.5 - added logging info setup, a log file will be crearted.
+- ver 1.4 - added user confirmation for deleting the original backup folders.
+- ver 1.3 - stopped recurse into subdirectories once valid backup is found.
+- ver 1.2 - checks for system.xml file along with BACKINFO.
+- ver 1.1 - checks for BACKINFO and zips and deletes the parent backup folder.
 
 ## how to use:
 ## option 1: Run the Executable with the Batch File
